@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #282c34;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.stockOptions{
+  padding: 10px;
+
+}
+.submitBtn{
+  
+  padding: 10px;
+}.period{
+  padding: 10px;;
+
+
+}
+.StockTable{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  align-items: center;
+  margin-top: 20px;
+}
+.stockTableTitle{
+  font-size: 18px;; 
+}
+.stockTableTitle table tbody{
+  background-color: #fff;
+
+}
+.StockTable table th{
+background-color: yellow;
+color: #000;
+padding: 10px;
+
+}
+.StockTable table td{
+  color: #000;
+  padding: 10px;
+  
+  }
+  .StockTable table tbody tr:nth-child(odd){
+    background-color: #999;
+  }
+  .StockTable table tbody tr:nth-child(even){
+    background-color: #fff;
+  }
